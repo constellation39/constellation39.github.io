@@ -53,7 +53,7 @@ permalinks:
 menu:
   main:
     - name: 首页
-      url: /首页/
+      url: /tags/首页/
       weight: 1
     - name: 水伊
       url: /tags/水伊/
