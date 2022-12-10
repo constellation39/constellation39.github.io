@@ -1,0 +1,87 @@
+baseURL: https://constellation39.github.io
+title: 
+defaultContentLanguage: 'zh'
+theme: eternity
+googleAnalytics: '' # todo: set your analytics id.
+
+# 米粒 水伊 回声 哑火 19 赫奇 阿灰 花店 陈sir 海塘 灰谷 可岛 毛毛虫 阿凯 呆萌 寄川 葵子 二鸽 天亮 兔兔 521 xiaohuozi kiyonami 148  
+# ml sy yh hs y9 hq ah hd cs ht hg kd mc ak dm jc kz eg tl tt wr xh ky e4
+
+params:
+  image: /images/banner.png
+  subtitle: "Every day" 
+  copyright: All rights reserved.
+  author: Lovely Author
+  dontShowSource: false # please, do not do this :)
+  portfolio:
+    columns:
+      desktop:
+        people: 6
+        default: 4
+      mobile:
+        default: 2
+        people: 3
+  socials:
+    - icon: 'far fa-envelope fa-lg'
+      url: 'mailto:constellation39@outlook.com'
+      landing: true
+    - icon: 'fab fa-github fa-lg'
+      url: 'https://github.com/constellation39/constellation39.github.io'
+      landing: true
+  homepage: "/home" # homepage link, mostly same with menu.main[0]
+  specialPages:
+    - home
+    - 朋友们
+  bypassWelcomePage: false # redirects "/" to "homepage" when it's true.
+  plausible: '' # todo: set your plausible id.
+  disableRadius: false
+  moveIt: false  # Moves Title and Meta info down, only visible when scroll.
+  disableAlwaysResize: false
+
+markup:
+  defaultMarkdownHandler: goldmark
+  goldmark:
+    renderer:
+      unsafe: true
+
+taxonomies:
+  tag: tags
+
+permalinks:
+  home: ":filename/"
+
+menu:
+  main:
+    - name: 首页
+      url: /home/
+      weight: 1
+    - name: 米粒
+      url: /tags/米粒/
+      weight: 3
+    - name: 水伊
+      url: /tags/水伊/
+      weight: 3
+    - name: 回声
+      url: /tags/回声/
+      weight: 3
+    - name: 哑火
+      url: /tags/哑火/
+      weight: 3
+    - name: 19
+      url: /tags/19/
+      weight: 3
+    - name: 赫奇
+      url: /tags/赫奇/
+      weight: 3
+    - name: 阿灰
+      url: /tags/阿灰/
+      weight: 3
+    - name: 花店
+      url: /tags/花店/
+      weight: 3
+    - name: 朋友们
+      url: /tags/朋友们/
+      weight: 4
+    - name:  关于
+      url: /about/
+      weight: 5
