@@ -55,29 +55,8 @@ menu:
     - name: 首页
       url: /home/
       weight: 1
-    - name: 米粒
-      url: /tags/米粒/
-      weight: 3
     - name: 水伊
       url: /tags/水伊/
-      weight: 3
-    - name: 回声
-      url: /tags/回声/
-      weight: 3
-    - name: 哑火
-      url: /tags/哑火/
-      weight: 3
-    - name: 19
-      url: /tags/19/
-      weight: 3
-    - name: 赫奇
-      url: /tags/赫奇/
-      weight: 3
-    - name: 阿灰
-      url: /tags/阿灰/
-      weight: 3
-    - name: 花店
-      url: /tags/花店/
       weight: 3
     - name: 朋友们
       url: /tags/朋友们/
