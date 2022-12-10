@@ -28,9 +28,9 @@ params:
     - icon: 'fab fa-github fa-lg'
       url: 'https://github.com/constellation39/constellation39.github.io'
       landing: true
-  homepage: "/home" # homepage link, mostly same with menu.main[0]
+  homepage: "/首页" # homepage link, mostly same with menu.main[0]
   specialPages:
-    - home
+    - 首页
     - 朋友们
   bypassWelcomePage: false # redirects "/" to "homepage" when it's true.
   plausible: '' # todo: set your plausible id.
@@ -48,12 +48,12 @@ taxonomies:
   tag: tags
 
 permalinks:
-  home: ":filename/"
+  首页: ":filename/"
 
 menu:
   main:
     - name: 首页
-      url: /home/
+      url: /首页/
       weight: 1
     - name: 水伊
       url: /tags/水伊/
