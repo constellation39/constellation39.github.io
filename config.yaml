@@ -18,11 +18,11 @@ params:
       desktop:
         首页: 1
         people: 6
-        default: 4
+        default: 3
       mobile:
         首页: 1
-        default: 2
         people: 3
+        default: 2
   socials:
     - icon: 'far fa-envelope fa-lg'
       url: 'mailto:constellation39@outlook.com'
