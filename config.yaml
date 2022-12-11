@@ -16,9 +16,11 @@ params:
   portfolio:
     columns:
       desktop:
+        首页: 1
         people: 6
         default: 4
       mobile:
+        首页: 1
         default: 2
         people: 3
   socials:
