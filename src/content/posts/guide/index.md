@@ -1,6 +1,7 @@
 ---
 title: Simple Guides for Fuwari
-published: 2024-04-01
+date: 2024-04-01
+published: true
 description: "How to use this blog template."
 image: "./cover.jpeg"
 tags: ["Fuwari", "Blogging", "Customization"]
@@ -17,7 +18,8 @@ This blog template is built with [Astro](https://astro.build/). For the things t
 ```yaml
 ---
 title: My First Blog Post
-published: 2023-09-09
+date: 2023-09-09
+published: true
 description: This is the first post of my new Astro blog.
 image: ./cover.jpg
 tags: [Foo, Bar]
